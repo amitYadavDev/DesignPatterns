@@ -1,5 +1,14 @@
 # DesignPatterns
 ## Builder
+### Builder Design Pattern
+The Builder Design Pattern is a creational software design pattern used to construct complex objects step by step. It separates the construction of an object from its representation, allowing the same construction process to create different representations.
+
+Purpose
+Decouples object construction from its representation.
+
+Useful when an object must be created with many possible configurations or optional parameters.
+
+Helps avoid telescoping constructors (constructors with many arguments).
 class Animal private constructor(
     private val legs: Int,
     private val voiceTone: String,

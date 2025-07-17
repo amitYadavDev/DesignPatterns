@@ -8,6 +8,7 @@ The Builder Design Pattern is a creational software design pattern used to const
 2. Useful when an object must be created with many possible configurations or optional parameters.
 3. Helps avoid telescoping constructors (constructors with many arguments).
 
+```
 class Animal private constructor(
     private val legs: Int,
     private val voiceTone: String,
@@ -56,4 +57,5 @@ fun main() {
 
     dog.showDetails()
 }
+```
 
